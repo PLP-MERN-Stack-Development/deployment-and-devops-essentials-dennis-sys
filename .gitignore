@@ -1,0 +1,21 @@
+# node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# env
+.env
+server/.env
+client/.env
+.env.local
+.env.*.local
+
+# build / editors
+/dist
+/build
+.DS_Store
+.vscode/
+.idea/
+
+# uploads (if you keep user uploads locally)
+server/uploads/

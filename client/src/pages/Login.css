@@ -1,0 +1,74 @@
+/* Full page center layout */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+}
+
+/* ⭐ Futuristic glowing CDMS */
+.cdms-title {
+  font-size: 55px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+  text-align: center;
+
+  background: linear-gradient(90deg, #00aaff, #66d9ff, #0099ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 0px 0px 15px rgba(0, 150, 255, 0.7);
+}
+
+/* Center card */
+.login-card {
+  width: 430px;
+  padding: 35px;
+  border-radius: 15px;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Inputs */
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #88cfff;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+}
+
+/* Button */
+.login-card button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background: linear-gradient(90deg, #0066cc, #0099ff);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0px 0px 10px rgba(0, 140, 255, 0.6);
+  transition: 0.2s ease;
+}
+
+.login-card button:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 18px rgba(0, 140, 255, 0.9);
+}
+
+/* register link */
+.register-link {
+  margin-top: 15px;
+  text-align: center;
+  color: var(--muted);
+}
